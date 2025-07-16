@@ -2,27 +2,18 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSRREGMZ3C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QSRREGMZ3C');
-</script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>FigLinks | Agentic AI in HR and Recruitment: Transforming Hiring with Intelligent Automation</title>
+  <title>FigLinks | Track Job Applicants Using Gmail and Google Sheets</title>
   <meta name="description"
-    content="The world of HR and recruitment is undergoing a seismic shift, thanks to Agentic AI—an advanced form of AI that autonomously performs complex tasks with minimal human intervention. Unlike traditional AI, which follows pre-defined workflows, Agentic AI can dynamically adapt, make decisions, and execute actions in real time. For HR professionals and recruiters, this technology is a game-changer, offering enhanced efficiency, accuracy, and fairness in hiring processes.">
+    content="Hiring can be a challenging process for startup founders, especially when applications are scattered across multiple email threads. Using expensive Applicant Tracking Systems (ATS) may not always be an option, especially for early-stage companies. Fortunately, you can leverage existing tools like Gmail and Google Sheets to efficiently manage incoming resumes and applicant data.">
   <meta name="keywords" content="bot,ai agents,interviews,insights">
   <meta property="og:title"
-    content="FigLinks | Agentic AI in HR and Recruitment: Transforming Hiring with Intelligent Automation" />
-  <meta property="og:url" content="https://www.figlinks.com/blog-agenticai.html" />
+    content="FigLinks | Track Job Applicants Using Gmail and Google Sheets" />
+  <meta property="og:url" content="https://www.figlinks.com/blog-gmailats.html" />
   <meta property="og:description"
-    content="The world of HR and recruitment is undergoing a seismic shift, thanks to Agentic AI—an advanced form of AI that autonomously performs complex tasks with minimal human intervention. Unlike traditional AI, which follows pre-defined workflows, Agentic AI can dynamically adapt, make decisions, and execute actions in real time. For HR professionals and recruiters, this technology is a game-changer, offering enhanced efficiency, accuracy, and fairness in hiring processes." />
-  <meta property="og:image" content="https://www.figlinks.com/assets/img/blog-agenticai.webp" />
+    content="Hiring can be a challenging process for startup founders, especially when applications are scattered across multiple email threads. Using expensive Applicant Tracking Systems (ATS) may not always be an option, especially for early-stage companies. Fortunately, you can leverage existing tools like Gmail and Google Sheets to efficiently manage incoming resumes and applicant data." />
+  <meta property="og:image" content="https://www.figlinks.com/assets/img/blog-gmailats.png" />
   <meta name="author" content="FigLinks">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#ffffff">
@@ -30,9 +21,9 @@
   <meta property="og:site_name" content="FigLinks">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="FigLinks | Agentic AI in HR and Recruitment: Transforming Hiring with Intelligent Automation">
-  <meta name="twitter:description" content="The world of HR and recruitment is undergoing a seismic shift, thanks to Agentic AI—an advanced form of AI that autonomously performs complex tasks with minimal human intervention.">
-  <meta name="twitter:image" content="https://www.figlinks.com/assets/img/blog-agenticai.webp">
+  <meta name="twitter:title" content="FigLinks |  Track Job Applicants Using Gmail and Google Sheets">
+  <meta name="twitter:description" content="Hiring can be a challenging process for startup founders, especially when applications are scattered across multiple email threads. Using expensive Applicant Tracking Systems (ATS) may not always be an option, especially for early-stage companies. Fortunately, you can leverage existing tools like Gmail and Google Sheets to efficiently manage incoming resumes and applicant data.">
+  <meta name="twitter:image" content="https://www.figlinks.com/assets/img/blog-gmailats.png">
   <meta name="twitter:site" content="@figlinks">
   <meta name="twitter:creator" content="@figlinks">
 
@@ -104,7 +95,7 @@
           <ol>
             <li><a href="index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li class="current">Agentic AI in HR and Recruitment</li>
+            <li class="current">Track Job Applicants Using Gmail and Google Sheets</li>
           </ol>
         </div>
       </nav>
@@ -122,113 +113,161 @@
               <article class="article">
 
                 <div class="post-img">
-                  <img src="assets/img/blog/blog-agenticai.webp" alt="" class="img-fluid">
+                  <img src="assets/img/blog/blog-gmailats.png" alt="" class="img-fluid">
                 </div>
 
-                <h2 class="title">Agentic AI in HR and Recruitment: Transforming Hiring with Intelligent Automation</h2>
+                <h2 class="title"> Track Job Applicants Using Gmail and Google Sheets</h2>
 
                 <div class="meta-top">
                   <ul>
                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                        href="blog-details.html">Ugendreshwar Kudupudi</a></li>
-                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time
-                          datetime="2025-01-01">Jan 1, 2025</time></a></li>
+                        href="#blog-author">Ugendreshwar Kudupudi</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time
+                          datetime="2025-04-04">April 4, 2025</time></a></li>
                   </ul>
                 </div><!-- End meta top -->
 
                 <div class="content">
-                  <h3>Introduction</h3>
+                    <p>Hiring can be a challenging process for startup founders, especially when applications are scattered across multiple email threads. Using expensive Applicant Tracking Systems (ATS) may not always be an option, especially for early-stage companies. Fortunately, you can leverage existing tools like Gmail and Google Sheets to efficiently manage incoming resumes and applicant data.</p>
+                    
+                    <h3>The Problem</h3>
+                    <p>Startups often receive job applications via email, making it hard to track resumes and extract useful information manually. Sorting through attachments, gathering contact information, and saving files can quickly become overwhelming.</p>
+                    
+                    <h3>The Solution: Automating Resume Management</h3>
+                    <p>By combining Gmail and Google Sheets with Google Apps Script, you can automatically read resumes from your inbox, extract key information (like name, phone number, and LinkedIn profile), and save both the resume file and data into Google Drive and Sheets. This way, you can create a simple yet powerful tracking system.</p>
+                    
+                    <h3>How It Works</h3>
+                    <p>The script continuously scans your Gmail inbox for new emails with resume attachments. Once found, it:</p>
+                    <ol>
+                    <li>Extracts key details from the resume (name, phone number, email, LinkedIn profile).</li>
+                    <li>Saves the resume to a specified Google Drive folder.</li>
+                    <li>Records the sender's email, file name, resume URL, and extracted details in a Google Sheet.</li>
+                    </ol>
+                    
+                    <h3>Why It’s Effective</h3>
+                    <ul>
+                    <li><strong>Cost-Efficient:</strong> Uses free Google Workspace tools.</li>
+                    <li><strong>Automated:</strong> Eliminates the need for manual resume sorting.</li>
+                    <li><strong>Centralized Data:</strong> Keeps all applicant information in one organized spreadsheet.</li>
+                    <li><strong>Scalable:</strong> Adapts as your hiring volume increases.</li>
+                    </ul>
+                    
+                    <h3>Setting Up the Script</h3>
+                    <ol>
+                    <li>Open Google Sheets and go to <strong>Extensions &gt; Apps Script</strong>.</li>
+                    <li>Copy and paste the provided script:</li>
+                    <pre><code class="language-javascript">
+// Google Apps Script to automate resume management
+function saveResumesToSheet() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var acceptedFormats = ['pdf', 'docx', 'doc', 'rtf'];
+  var row = sheet.getLastRow() + 1;
 
-                  <p>
-                    The world of HR and recruitment is undergoing a seismic shift, thanks to <b>Agentic AI</b>—an
-                    advanced form of AI that autonomously performs complex tasks with minimal human intervention. Unlike
-                    traditional AI, which follows pre-defined workflows, <b>Agentic AI can dynamically adapt, make
-                      decisions, and execute actions in real time</b>. For HR professionals and recruiters, this
-                    technology is a game-changer, offering enhanced efficiency, accuracy, and fairness in hiring
-                    processes.
-                  </p>
+  if (row === 1) {
+    sheet.getRange('A1:G1').setValues([['Sender Email', 'Resume File Name', 'Drive Path', 'Candidate Name', 'Phone Number', 'Email', 'LinkedIn Profile']]);
+  }
 
-                  <h3>What is Agentic AI?</h3>
-                  <p>
-                    Agentic AI refers to AI systems capable of taking initiative, problem-solving independently, and
-                    learning from interactions. Unlike rule-based AI, <b>Agentic AI can analyze data, assess complex
-                      scenarios, and make real-time decisions</b> without requiring constant human input.
-                  </p>
+  var processedIds = PropertiesService.getScriptProperties().getProperty('PROCESSED_IDS');
+  processedIds = processedIds ? JSON.parse(processedIds) : {};
 
-                  <p>
-                    For example, in HRTech SaaS platforms, <b>AI-driven agents</b> can conduct <b>interviews, assess
-                      candidates, provide scores, and even refine hiring strategies</b> based on past outcomes.
-                  </p>
+  var query = 'has:attachment';
+  var threads = GmailApp.search(query);
 
-                  <img src="assets/img/blog/blog-agenticai-pic2.png" class="img-fluid" alt="">
+  for (var i = 0; i < threads.length; i++) {
+    var messages = threads[i].getMessages();
+    for (var j = 0; j < messages.length; j++) {
+      var messageId = messages[j].getId();
+      if (processedIds[messageId]) continue;
 
-                  <blockquote>
-                    <p>
-                      Agentic AI refers to AI systems capable of taking initiative, problem-solving independently, and
-                      learning from interactions.
-                    </p>
-                  </blockquote>
+      var attachments = messages[j].getAttachments();
+      var senderEmail = messages[j].getFrom();
 
-                  <h3>The Key Benefits of Agentic AI for HR and Recruiters</h3>
-                  <h3>1. Automated, Unbiased Interviews</h3>
-                  <p>Agentic AI can <b>conduct interviews without bias</b>, assessing candidate responses objectively
-                    based on predefined competency frameworks. This eliminates unconscious human biases and ensures
-                    fairer hiring decisions.</p>
-                  <img src="assets/img/blog/blog-agenticai-pic3.webp" class="img-fluid" alt=""> <br />
+      for (var k = 0; k < attachments.length; k++) {
+        var fileName = attachments[k].getName();
+        var fileExtension = fileName.split('.').pop().toLowerCase();
 
-                  <h3>2. Enhanced Candidate Screening</h3>
-                  <p>Screening resumes manually is time-consuming and prone to errors. <b>Agentic AI can evaluate
-                      thousands of resumes in minutes, filtering the best-fit candidates based on skills, experience,
-                      and cultural fit.</b></p>
+        if (acceptedFormats.includes(fileExtension)) {
+          var content = attachments[k].getDataAsString();
+          var keywords = ['resume', 'curriculum vitae', 'experience', 'education', 'skills'];
+          var isResume = keywords.some(keyword => content.toLowerCase().includes(keyword));
 
-                  <h4>3. Real-time Candidate Engagement</h4>
-                  <p>Many candidates drop out of the hiring process due to long wait times. <b>AI-powered agents can
-                      instantly respond to queries, schedule interviews, and provide feedback, improving candidate
-                      experience.</b></p>
-                  <h4>4. Predictive Hiring and Workforce Planning</h4>
-                  <p>Agentic AI doesn’t just analyze resumes—it <b>predicts hiring trends, skill gaps, and workforce
-                      needs, helping HR teams proactively plan for the future.</b></p>
-                  <h4>5. Reduced Time-to-Hire and Cost Savings</h4>
-                  <p>By automating interviews, resume screening, and scheduling, companies can reduce hiring time by up
-                    to <b>50%</b>, leading to significant cost savings.</p>
+          if (isResume) {
+            // Extract details using regex
+            var nameMatch = content.match(/(?:name|full name|candidate name)[:\s]*([A-Za-z\s]+)/i);
+            var name = nameMatch ? nameMatch[1].trim() : '';
 
-                  <h3>How Recruiters Can Leverage Agentic AI Today</h3>
-                  <h4>1. AI-Driven Candidate Assessments</h4>
-                  <p>FigLinks, now integrate <b>Agentic AI-based assessment tools</b> that evaluate candidates on
-                    multiple parameters—technical skills, soft skills, problem-solving abilities, and cultural fit.</p>
-                  <h4>2. Automated Interviewing Agents</h4>
-                  <p>With AI-powered interviewers, companies can conduct initial screening rounds without human
-                    intervention. These agents <b>ask adaptive questions, analyze responses, and score candidates</b>
-                    based on hiring criteria.</p>
-                  <h4>3. Intelligent Resume Parsing and Ranking</h4>
-                  <p>AI-powered applicant tracking systems (ATS) use Agentic AI to scan resumes, extract key
-                    qualifications, and rank candidates based on relevance to the job description.</p>
-                  <h4>4. AI-Powered Diversity Hiring</h4>
-                  <p>Agentic AI can analyze hiring data to <b> ensure diversity, equity, and inclusion (DEI) in
-                      recruitment processes</b>, identifying patterns of bias and suggesting corrective actions.</p>
-                  <h4>5. Automated Onboarding and Training</h4>
-                  <p>Once hired, AI can <b>automate onboarding</b> by guiding new employees through company policies,
-                    required training modules, and paperwork processing.</p>
-                  <h3>The Future of Agentic AI in HR</h3>
-                  <p>As AI technology advances, Agentic AI will play a pivotal role in reshaping HR functions. Future
-                    innovations include:
-                  <ul>
-                    <li>Fully AI-driven recruitment cycles with minimal human intervention.</li>
+            var phoneMatch = content.match(/(?:phone|mobile|contact)[:\s]*([+]?\d[\d\s\-()]{7,15})/i);
+            var phone = phoneMatch ? phoneMatch[1].trim() : '';
 
-                    <li>AI-generated candidate reports with deep behavioral insights.</li>
+            var emailMatch = content.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
+            var email = emailMatch ? emailMatch[0].trim() : '';
 
-                    <li>Real-time AI coaching for hiring managers to improve decision-making.</li>
+            var linkedInMatch = content.match(/https?:\/\/[a-zA-Z.]*linkedin.com\/[A-Za-z0-9_\-\/]+/i);
+            var linkedIn = linkedInMatch ? linkedInMatch[0].trim() : '';
 
-                    <li>AI-led career path recommendations for employees to optimize workforce retention.</li>
-                    </p>
-                  </ul>
-                  <h3>Conclusion</h3>
-                  <p>Agentic AI is <b>not here to replace recruiters but to empower them</b> with intelligent
-                    automation, better decision-making, and enhanced efficiency. HR professionals and recruiters who
-                    embrace this AI-driven evolution will gain a competitive edge in attracting top talent, reducing
-                    hiring biases, and optimizing HR processes.</p>
-                  <p>As the future of work continues to evolve, <b>Agentic AI will become an indispensable ally in</b>
-                    creating smarter, faster, and fairer hiring practices.</p>
+            // Save the resume to Google Drive
+            var folder = DriveApp.getFolderById('YOUR_FOLDER_ID');
+            var file = folder.createFile(attachments[k]);
+            var fileUrl = 'https://drive.google.com/file/d/' + file.getId();
+            Logger.log('Saved resume to Drive: ' + fileName);
+
+            // Save data to the sheet
+            sheet.getRange(row, 1).setValue(senderEmail);
+            sheet.getRange(row, 2).setValue(fileName);
+            sheet.getRange(row, 3).setValue(fileUrl);
+            sheet.getRange(row, 4).setValue(name);
+            sheet.getRange(row, 5).setValue(phone);
+            sheet.getRange(row, 6).setValue(email);
+            sheet.getRange(row, 7).setValue(linkedIn);
+            row++;
+          }
+        }
+      }
+
+      // Mark the message as processed
+      processedIds[messageId] = true;
+    }
+  }
+
+  // Save the updated processed IDs
+  PropertiesService.getScriptProperties().setProperty('PROCESSED_IDS', JSON.stringify(processedIds));
+  Logger.log('Resume extraction completed.');
+}
+
+function setTrigger() {
+  ScriptApp.newTrigger('saveResumesToSheet')
+    .timeBased()
+    .everyMinutes(30)
+    .create();
+  Logger.log('Trigger set to run every 30 minutes.');
+}
+
+                    </code></pre>
+
+                    <li>Update the <code>YOUR_FOLDER_ID</code> with the ID of your Google Drive folder.</li>
+                    <li><p>Run the <code>setTrigger()</code> function to schedule the script. 
+                    Watch the video below for a step-by-step guide:</p>
+                    <video controls width="100%">
+                      <source src="assets/img/blog/blog-gmailats.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video></li>
+                    </ol>
+                    
+                    <h3>How to Get the YOUR_FOLDER_ID</h3>
+                    <p>To find the ID of the Google Drive folder where resumes will be saved:</p>
+                    <ol>
+                    <li>Open Google Drive and navigate to the folder.</li>
+                    <li>Click on the folder to open it.</li>
+                    <li>Look at the URL in your browser's address bar. It will look something like this:</li>
+                    </ol>
+                    <pre><code>https://drive.google.com/drive/folders/1g8n6yz9XLW4sf0OPLUXtwwzv5luBi83G</code></pre>
+                    <p>The long string after <code>/folders/</code> is the <code>YOUR_FOLDER_ID</code> you need to use in the script.</p>
+
+                    <h3>Conclusion</h3>
+                    <p>This simple yet effective solution allows founders to streamline resume management without investing in costly ATS software. With Gmail and Google Sheets, you can maintain a well-organized and automated hiring pipeline.</p>
+                    <p>Need help implementing this setup? Let me know!</p>
+                  
+                  
 
                   <h3>Are You Ready for AI-Driven Hiring?</h3>
                   <p>If you’re in HR or recruitment, now is the time to explore how FigLinks can transform your hiring

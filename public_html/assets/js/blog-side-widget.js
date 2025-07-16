@@ -22,6 +22,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     const recentPosts = [
         {
+            imgSrc: "assets/img/blog/blog-gmailats.png",
+            imgAlt: "",
+            linkHref: "blog-gmailats.html",
+            linkText: "Track Job Applicants Using Gmail and Google Sheets",
+            timeDatetime: "2020-04-04",
+            timeText: "April 4, 2025"
+        },
+        {
             imgSrc: "assets/img/blog/blog-agenticai.webp",
             imgAlt: "",
             linkHref: "blog-agenticai.html",
